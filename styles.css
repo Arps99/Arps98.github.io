@@ -27,9 +27,11 @@ a{
     margin: 0 auto;
     display: grid;
     padding: 2rem;
-    background-color:black;
+    background-color:blueviolet;
     grid-template-columns: 1fr 1fr;  
     gap:5rem;
+    border-color: brown;
+    box-sizing: border-box;
 }
 .profile{
     margin-bottom: 2rem;
@@ -45,7 +47,7 @@ a{
     margin-top:1rem ;
     font-size:1rem ;
     font-weight:300 ;
-    color:brown;
+    color:aliceblue;
     padding: 0.2rem;
 }
 .skill_list{
